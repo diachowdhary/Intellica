@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intellica | Messages</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dark-bg">
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="logo small">Intellica</a>
+      <span class="nav-links">
+        <a href="feed.html" class="navlink">Feed</a>
+        <a href="network.html" class="navlink">Network</a>
+        <a href="messages.html" class="navlink active">Messages</a>
+        <a href="profile.html" class="navlink">Profile</a>
+      </span>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Inbox</h2>
+
+    <table class="messages">
+      <tr><td class="card"><strong>Harvey Specter</strong><br /><span class="muted">Can you review the deck?</span></td></tr>
+      <tr><td class="card"><strong>Rachel Zane</strong><br /><span class="muted">Shared the carousel.</span></td></tr>
+      <tr><td class="card"><strong>Michael Ross</strong><br /><span class="muted">Agenda attached.</span></td></tr>
+    </table>
+
+    <div class="card">
+      <form>
+        <label for="message" class="muted">Type a message</label><br />
+        <input id="message" type="text" placeholder="Write message..." class="text-input" />
+        <input type="submit" value="Send" class="btn-primary small" />
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>
