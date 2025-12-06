@@ -264,6 +264,15 @@ body.dark-bg {
   margin: 0 auto; 
 }
 
+.connect-btn.connected {
+    background-image: linear-gradient(90deg, #6c63ff, #c084fc);
+    color: white;
+    border: 1px solid transparent;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(108, 99, 255, 0.4); 
+}
+
+
 @media (max-width: 820px) {
   .layout, .network-table {
      display: block; 
@@ -278,4 +287,8 @@ body.dark-bg {
     margin-left: auto; 
     margin-right: auto; 
   }
+}
+
+.btn-primary {
+  background-image: linear-gradient(90deg,#6c63ff,#c084fc); 
 }
